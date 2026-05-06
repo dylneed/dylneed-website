@@ -1,14 +1,16 @@
 #blogpost {
-  width:60%;
-  min-width:500px;
+/*   width:60%; */
+  width: 46rem;
+  min-width:48rem;
   min-height:min(100vh - 40px, max(85vh, 100vh - 120px));
   margin:auto;
   z-index:0;
 }
 
-@media screen and (max-width:500px) {
-  #blogpost{
+@media screen and (max-width:48rem) {
+  #blogpost {
     min-width:94%;
+    width:94%;
   }
 }
 
@@ -18,8 +20,7 @@
 }
 
 p {
-  text-align: left;
-  text-indent: 40px;
+  text-indent: 2rem;
   padding: 10px 0;
   margin:0;
 }

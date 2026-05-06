@@ -40,21 +40,16 @@ h2.ensemble-type {
 }
 
 p.piece {
-  margin:0;
+  margin:0 0 1rem 0;
   padding:0;
   text-align: center;
   text-indent:0;
-
+  line-height:1.1;
 }
-
 
 span.piece-ensemble {
   font-style:italic;
   font-size: 1.167rem;
-}
-
-p.piece {
-  margin-bottom:10px;
 }
 
 .works-link:hover {

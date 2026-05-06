@@ -5,9 +5,11 @@ import stopButton from "../../assets/img/stopbutton.png"
 import downloadButton from "../../assets/img/downloadbutton.png"
 import bandcampLogo from "../../assets/img/bandcamp.png"
 
+const baseRem = 1.25;
+
 function Title({piece, link=true}) {
   return <>
-    <span style={{fontVariant:"small-caps",fontSize:"1.5rem",fontWeight:600}}>
+    <span style={{fontVariant:"small-caps",fontSize:`${baseRem*1.2}rem`,fontWeight:600}}>
       {link && piece.page
         ? <Link to={piece.internalUrl} onClick={() => window && window.scroll(0,0)}>
             {piece.title}
@@ -41,7 +43,7 @@ function PlayerTitle({piece, link=true, audioSource, setAudioSource, mp3}) {
   </>
 }
 
-function Subtitle({piece, style={fontSize:"1.08333rem",fontStyle:""}}) {
+function Subtitle({piece, style={fontSize:`${baseRem}rem`,fontStyle:""}}) {
   return <>
     {piece.ensemble && <i style={style}> {piece.ensemblePrefix ||"for"} {piece.ensemble}</i>}
     {piece.text && <><br /><i style={style}>
@@ -73,7 +75,7 @@ function Performances({piece, link=false, showMidi=false }) {
 
 function PieceListEntry({piece, performances, showPlayerTitle, audioSource, setAudioSource}) {
   console.log(showPlayerTitle)
-  return <p className="piece" style={{fontSize:"1.333rem"}}>
+  return <p className="piece">
     {showPlayerTitle
       ? <PlayerTitle piece={piece} audioSource={audioSource} setAudioSource={setAudioSource} />
       : <Title piece={piece} />
