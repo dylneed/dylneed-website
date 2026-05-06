@@ -113,6 +113,7 @@ const chamber = {
         author: "T.S. Eliot",
       },
       ensemble: "Harmonica, Baritone, and Live Electronics",
+      selected: false,
       pdf: theChambersOfTheSeaPdf,
       performances:[{
         ensemble:"Dylan Needleman",
@@ -136,7 +137,7 @@ const chamber = {
       title: "Cycle",
       year: 2021,
       ensemble: "String Quartet",
-      selected: true,
+      selected: false,
       pdf: cyclePdf,
       performances:[{
         ensemble:"Robin Zeh, Rachel Handman, Marka Gustavsson, and Yavi Bond",
@@ -153,7 +154,7 @@ const chamber = {
         author: "Edgar Allan Poe",
       },
       ensemble: "three Bass Voices",
-      selected: true,
+      selected: false,
       pdf: theBellsPdf,
       url: "https://dylanneedleman.bandcamp.com/track/the-bells",
       performances:[{

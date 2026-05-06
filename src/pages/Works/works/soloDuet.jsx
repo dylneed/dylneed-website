@@ -80,7 +80,7 @@ const soloDuet = {
       title: "Thin the Veil",
       year: 2020,
       ensemble: "Flute and Cello",
-      selected: true,
+      selected: false,
       pdf: thinTheVeilPdf,
       performances: [{
         ensemble:"Christopher Story and Lori Beth Sussman",
