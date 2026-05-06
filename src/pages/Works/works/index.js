@@ -3,12 +3,14 @@ import soloDuet from "./soloDuet"
 import large from "./large"
 import electronic from "./electronic"
 import albums from "./albums"
+import installations from "./installations"
 
 const works = [
   chamber,
   soloDuet,
   large,
   electronic,
+  installations,
   albums,
 ]
 
