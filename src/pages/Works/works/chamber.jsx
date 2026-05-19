@@ -107,7 +107,6 @@ const chamber = {
     {
       title: "The Chambers of the Sea",
       year: 2023,
-      selected: true,
       text: {
         work: "The Love Song of J. Alfred Prufrock",
         author: "T.S. Eliot",
