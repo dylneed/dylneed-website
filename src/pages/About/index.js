@@ -7,15 +7,14 @@ function About() {
         {/* <h3>About</h3> */}
         <p style={{fontSize:"1.4rem",lineHeight:"calc(1.3rem * 1.45)"}}>
           Dylan Needleman is a composer, producer, and programmer originally from Northern New Jersey.
-          He is currently working towards a Master of Fine Arts in Music Composition and Theory from Brandeis University,
-          {/*He is currently working towards a Doctor of Musical Arts in Music Composition from Boston University
-           and has a Master of Fine Arts in Music Composition and Theory from Brandeis University*/} {" "}
-          and has a Bachelor of Arts in Computer Science from Vassar College with minors in Music Composition and Applied Mathematics.
+          He is currently working towards a Doctor of Musical Arts in Music Composition from Boston University
+          and has a Master of Fine Arts in Music Composition and Theory from Brandeis University
+          and a Bachelor of Arts in Computer Science from Vassar College with minors in Music Composition and Applied Mathematics.
         </p>
         <p>
           As a composer and producer, he creates music from many different genres, combining a large variety of influences, 
           including Hardcore Punk, Minimalism, and Harsh Noise.
-          He has had pieces performed by the Lydian String Quartet, the LAMNTH duo, the TALEA Ensemble, and many others.
+          He has had pieces performed by the Lydian String Quartet, the LAMNTH duo, Ensemble Télémaque, and many others.
         </p>
         <p>
           As a programmer, he has experience in Web Development, using tools such as React and Razor Pages, 
