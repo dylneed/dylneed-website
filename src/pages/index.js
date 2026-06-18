@@ -5,6 +5,7 @@ import About from './About';
 import {Home as BlogHome, Post as BlogPost, posts as blogPosts, postTitles as blogPostTitles} from './Blog';
 import Contact from './Contact';
 import {Home as WorksHome, workTypes, Type as WorkType, Piece as WorkPiece} from './Works';
+import Error404 from "./Error404"
 
 import TitleUpdater from "../components/TitleUpdater";
 import ExternalNavigator from "../components/ExternalNavigator";
@@ -66,7 +67,17 @@ let music = {
   menuDisplay: false,
 }
 
+let error404 = {
+  name: "Error 404",
+  title: "Error 404: Page Not Found",
+  element: <Error404 />,
+  path:"*",
+  navbarDisplay: false,
+  menuDisplay: false,
+}
+
 let pages = [
+  error404,
   home,
   about,
   works,
