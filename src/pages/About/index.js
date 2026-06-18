@@ -17,8 +17,8 @@ function About() {
           He has had pieces performed by the Lydian String Quartet, the LAMNTH duo, Ensemble Télémaque, and many others.
         </p>
         <p>
-          As a programmer, he has experience in Web Development, using tools such as React and Razor Pages, 
-          as well as with development in Android Studio and programming in Python, C, OCaml, and more.
+          As a programmer, he has experience in Web Development, using tools such as React and Razor Pages,
+          as well as with development in Godot Engine and Android Studio, and programming in Python, C, OCaml, and more.
           He is currently working towards developing music software, and will have plugins available soon.
         </p>
         {/* <p>
