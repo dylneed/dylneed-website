@@ -15,7 +15,7 @@ import theBellsSelfMp3 from "../../../assets/works/the-bells-self.mp3"
 import fillARoomWithSoundPdf from "../../../assets/works/you-have-to-fill-a-room-with-sound.pdf"
 import fillARoomWithSoundLydianMp3 from "../../../assets/works/you-have-to-fill-a-room-with-sound-lydian.mp3"
 import somethingWasSmallPdf from "../../../assets/works/something-was-small.pdf"
-// import somethingWasSmallHingeMp3 from "../../../assets/works/something-was-small-hinge.mp3"
+import somethingWasSmallHingeMp3 from "../../../assets/works/something-was-small-hinge.mp3"
 import lesPontsPdf from "../../../assets/works/les-ponts.pdf"
 // import lesPontsTelemaqueMp3 from "../../../assets/works/les-ponts-telemaque.mp3"
 
@@ -50,8 +50,8 @@ const chamber = {
       performances: [{
         ensemble: "the HINGE Quartet",
         year: 2026,
-//        mp3: somethingWasSmallHingeMp3,
-//        bandcampUrl: "https://dylanneedleman.bandcamp.com/track/something-was-small"
+       mp3: somethingWasSmallHingeMp3,
+       bandcampUrl: "https://dylanneedleman.bandcamp.com/track/something-was-small"
       }]
     },
     {
