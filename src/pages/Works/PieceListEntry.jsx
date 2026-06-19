@@ -10,11 +10,13 @@ const baseRem = 1.25;
 function Title({piece, link=true}) {
   return <>
     <span style={{fontVariant:"small-caps",fontSize:`${baseRem*1.2}rem`,fontWeight:600}}>
-      {link && piece.page
-        ? <Link to={piece.internalUrl} onClick={() => window && window.scroll(0,0)}>
-            {piece.title}
-          </Link>
-        : piece.title
+      {piece.externalUrl
+        ? <a href={piece.externalUrl} target="_blank" rel="noreferrer">{piece.title}</a>
+        : link && piece.page
+          ? <Link to={piece.internalUrl} onClick={() => window && window.scroll(0,0)}>
+              {piece.title}
+            </Link>
+          : piece.title
       }
     </span>
     {piece.year && ` (${piece.year})`}
