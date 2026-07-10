@@ -10,8 +10,6 @@ import Error404 from "./Error404"
 import TitleUpdater from "../components/TitleUpdater";
 import ExternalNavigator from "../components/ExternalNavigator";
 
-import headshotImg from "../assets/img/headshot.jpg"
-
 let about = {
   name: "About",
   title: "",
@@ -50,14 +48,6 @@ let home = {
   menuDisplay: false,
 }
 
-let headshot = {
-  name: "Headshot",
-  path: "/headshot",
-  element: <img src={headshotImg} alt="A headshot of Dylan Needleman smiling"/>,
-  navbarDisplay: false,
-  menuDisplay: false,
-}
-
 let music = {
   name: "Music",
   title: "",
@@ -84,7 +74,6 @@ let pages = [
   blog,
   contact,
   music,
-  headshot,
 ]
 
 pages.forEach((page,i) => {
