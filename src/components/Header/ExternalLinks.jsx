@@ -3,6 +3,7 @@ import React, {} from 'react';
 import './ExternalLinks.css'
 
 import bandcamp from '../../assets/img/bandcamp.png';
+import itch from '../../assets/img/itch.png';
 import github from '../../assets/img/github.png';
 import linkedin from '../../assets/img/linkedin.png';
 
@@ -12,6 +13,9 @@ function ExternalLinks() {
       <a href="https://dylanneedleman.bandcamp.com" target="_blank" rel="noreferrer" className="external navigation">
         <img src={bandcamp} className="logos" alt="Bandcamp"/>
       </a>
+      {<></> || <a href="https://dylneed.itch.io/" target="_blank" rel="noreferrer" className="external navigation">
+        <img src={itch} className="logos" alt="Itch.io"/>
+      </a>}
       <a href="https://www.github.com/dylneed" target="_blank" rel="noreferrer" className="external navigation">
         <img src={github} alt="GitHub" className="logos"/>
       </a>
