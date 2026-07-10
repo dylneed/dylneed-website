@@ -7,7 +7,7 @@
   z-index:0;
 }
 
-h2{
+h1{
   text-align:center;
 }
 
@@ -76,4 +76,8 @@ button:hover {
 button:active {
   color:#aaa;
   border-color:#aaa;
+}
+
+#message{
+  height: max(72px, calc(80vh - max(12vh, 64px) - 7rem - 170px));
 }

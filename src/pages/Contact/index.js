@@ -14,7 +14,7 @@ function Contact() {
 
   return (
     <div id="contact">
-      <h2>Contact</h2>
+      <h1>Contact</h1>
       <div id="contact-form">
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
