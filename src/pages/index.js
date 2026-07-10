@@ -22,6 +22,7 @@ let blog = {
   path:"/blog",
   element: <BlogHome/>,
   route: "placeholder",
+  navbarDisplay: false,
 }
 
 let works = {
