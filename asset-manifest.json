@@ -1,9 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.7bee2682.css",
-    "main.js": "/static/js/main.d4d1e04a.js",
+    "main.js": "/static/js/main.752f243a.js",
     "static/media/the-whalefall.mp3": "/static/media/the-whalefall.f7ac157e0cfa7f316a59.mp3",
     "static/media/diana-its-michelle.mp3": "/static/media/diana-its-michelle.101ba647b84b56db1004.mp3",
+    "static/media/fifth-plane-back.mp3": "/static/media/fifth-plane-back.3d7d955770f8efa696fb.mp3",
+    "static/media/fifth-plane-front.mp3": "/static/media/fifth-plane-front.a1fde7f107e539414eea.mp3",
+    "static/media/lounge-simulacrum-left-waves.mp3": "/static/media/lounge-simulacrum-left-waves.07a5affbdd88797c28b3.mp3",
+    "static/media/lounge-simulacrum-right-waves.mp3": "/static/media/lounge-simulacrum-right-waves.e678d6028ded666cad5e.mp3",
     "static/media/hen-to-pan.mp3": "/static/media/hen-to-pan.95bbf34aa5757932316e.mp3",
     "static/media/something-was-small-hinge.mp3": "/static/media/something-was-small-hinge.09bd3e9bd6277c4b0466.mp3",
     "static/media/song-of-the-void.mp3": "/static/media/song-of-the-void.0ea5dc4866f13d2035e3.mp3",
@@ -11,6 +15,7 @@
     "static/media/you-have-to-fill-a-room-with-sound-lydian.mp3": "/static/media/you-have-to-fill-a-room-with-sound-lydian.3119d1a0ce64e87de11c.mp3",
     "static/media/sanguine-dreams.mp3": "/static/media/sanguine-dreams.ef2089fd483d64bf1c12.mp3",
     "static/media/the-all-is-one-talea.mp3": "/static/media/the-all-is-one-talea.8116914d762b12ca79ac.mp3",
+    "static/media/lounge-simulacrum-engine.mp3": "/static/media/lounge-simulacrum-engine.195c5631ba0577304bea.mp3",
     "static/media/faulting-lamnth.mp3": "/static/media/faulting-lamnth.8910ffd43d8e02e0d42f.mp3",
     "static/media/west.mp3": "/static/media/west.105f4b16226a3cd59327.mp3",
     "static/media/cycle-2021.mp3": "/static/media/cycle-2021.ba58dd7091c66312e19c.mp3",
@@ -19,8 +24,10 @@
     "static/media/ozymandias-vcc.mp3": "/static/media/ozymandias-vcc.2c679a176613797e5934.mp3",
     "static/media/the-bells-self.mp3": "/static/media/the-bells-self.e9492373c722799ba7c2.mp3",
     "static/media/sonatina-for-paul.mp3": "/static/media/sonatina-for-paul.5a83cea50e0cb42a7b73.mp3",
+    "static/media/lounge-simulacrum-steam.mp3": "/static/media/lounge-simulacrum-steam.5dbd21e6c78d808d4f71.mp3",
     "static/media/the-chambers-of-the-sea-self.mp3": "/static/media/the-chambers-of-the-sea-self.d67d4036ecb449fc0bae.mp3",
     "static/media/well-being-for-all-midi.mp3": "/static/media/well-being-for-all-midi.8fe90703ef51cf5f9089.mp3",
+    "static/media/les-ponts-telemaque.mp3": "/static/media/les-ponts-telemaque.86fb2546c1f59b0edf3f.mp3",
     "static/media/header.png": "/static/media/header.7968e0b425a60e401b5a.png",
     "static/media/the-sinking-call-midi.mp3": "/static/media/the-sinking-call-midi.22f9354fe571f2936191.mp3",
     "static/media/thin-the-veil-2020.mp3": "/static/media/thin-the-veil-2020.70e0cb858e4800c73af1.mp3",
@@ -30,7 +37,7 @@
     "static/media/something-was-small.pdf": "/static/media/something-was-small.aa0857c9649d5c67284e.pdf",
     "static/media/background.jpg": "/static/media/background.f3721e94603f06a54faf.jpg",
     "static/media/down-two-flights.pdf": "/static/media/down-two-flights.41aac0a25d391370a24c.pdf",
-    "static/media/les-ponts.pdf": "/static/media/les-ponts.ade24e0958363e76d6e7.pdf",
+    "static/media/les-ponts.pdf": "/static/media/les-ponts.4a87c28917d4c860e681.pdf",
     "static/media/the-bells.pdf": "/static/media/the-bells.af5ffa038dd8d0d5a95b.pdf",
     "static/media/faulting.pdf": "/static/media/faulting.d687ab1cce72d7ce5271.pdf",
     "static/media/ozymandias.pdf": "/static/media/ozymandias.0699b9863ddb8c261b17.pdf",
@@ -53,10 +60,10 @@
     "static/media/FRIZ QUADRATA STD REGULAR.OTF": "/static/media/FRIZ QUADRATA STD REGULAR.aff9163cc1d1a0cf84c8.OTF",
     "index.html": "/index.html",
     "main.7bee2682.css.map": "/static/css/main.7bee2682.css.map",
-    "main.d4d1e04a.js.map": "/static/js/main.d4d1e04a.js.map"
+    "main.752f243a.js.map": "/static/js/main.752f243a.js.map"
   },
   "entrypoints": [
     "static/css/main.7bee2682.css",
-    "static/js/main.d4d1e04a.js"
+    "static/js/main.752f243a.js"
   ]
 }
