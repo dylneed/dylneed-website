@@ -59,7 +59,7 @@ function Subtitle({piece, style={fontSize:`${baseRem}rem`,fontStyle:""}}) {
 function Performance({performance, link=false}) {
   const performanceStr = performance.midiRealization
     ? "MIDI Realization"
-    : `${performance.performedOveride || "performed by"} ${performance.ensemble} (${performance.year})`
+    : `${performance.performedOveride || "performed by"} ${performance.ensemble}` + (performance.year ? `(${performance.year})` : "")
   return link
     ? <a href={performance.url} target="_blank" rel="noreferrer">{performanceStr}</a>
     : <>{performanceStr}</>
