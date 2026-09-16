@@ -17,7 +17,7 @@ import fillARoomWithSoundLydianMp3 from "../../../assets/works/you-have-to-fill-
 import somethingWasSmallPdf from "../../../assets/works/something-was-small.pdf"
 import somethingWasSmallHingeMp3 from "../../../assets/works/something-was-small-hinge.mp3"
 import lesPontsPdf from "../../../assets/works/les-ponts.pdf"
-// import lesPontsTelemaqueMp3 from "../../../assets/works/les-ponts-telemaque.mp3"
+import lesPontsTelemaqueMp3 from "../../../assets/works/les-ponts-telemaque.mp3"
 
 
 const chamber = {
@@ -27,7 +27,7 @@ const chamber = {
     {
       title: "Les Ponts",
       year: 2026,
-      ensemble: "Actress, Soprano, and Chamber Ensemble",
+      ensemble: "Actor, Soprano, and Chamber Ensemble",
       selected: true,
       pdf: lesPontsPdf,
       text: {
@@ -37,8 +37,8 @@ const chamber = {
       performances: [{
         ensemble: "Ensemble Télémaque",
         year: 2026,
-//         mp3: lesPontsTelemaqueMp3,
-//        bandcampUrl: "https://dylanneedleman.bandcamp.com/track/les-ponts"
+        mp3: lesPontsTelemaqueMp3,
+       bandcampUrl: "https://dylanneedleman.bandcamp.com/track/les-ponts"
       }]
     },
     {
